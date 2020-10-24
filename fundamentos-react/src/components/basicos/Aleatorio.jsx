@@ -6,7 +6,7 @@ const Aleatorio = (props) => {
 
   return (
     <div>
-      <h2>Númer aleatório</h2>
+      <h2>Número aleatório</h2>
 
       <p>Valor minimo: <strong>{min}</strong></p>
 
