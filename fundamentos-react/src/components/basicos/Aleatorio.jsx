@@ -1,12 +1,17 @@
 import React from  'react'
 
 const Aleatorio = (props) => {
-
-  const numAleatorio = Math.floor(Math.random() * (props.max - props.min + 1) + props.min) 
+  const { min, max } = props
+  const numAleatorio = Math.floor(Math.random() * (max - min + 1) + min) 
 
   return (
     <div>
-      <h2>Aleatório</h2>
+      <h2>Númer aleatório</h2>
+
+      <p>Valor minimo: <strong>{min}</strong></p>
+
+      <p>Valor máximo: <strong>{max}</strong></p>
+
       <p>O número aleatório é <strong>{ numAleatorio }</strong></p>
     </div>
   )
