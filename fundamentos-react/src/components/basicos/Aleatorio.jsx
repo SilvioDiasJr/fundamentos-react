@@ -6,7 +6,7 @@ const Aleatorio = (props) => {
 
   return (
     <div>
-      <h1>Aleatório</h1>
+      <h2>Aleatório</h2>
       <p>O número aleatório é <strong>{ numAleatorio }</strong></p>
     </div>
   )
