@@ -1,0 +1,20 @@
+.contador input {
+  width: 50px;
+  margin-left: 5px;
+}
+
+.contador  button{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  background-color: #4f4fd4;
+  color: #fff;
+
+  transition: 0.3s;
+}
+
+.contador  button:hover {
+  background-color: #ce5424;
+}
