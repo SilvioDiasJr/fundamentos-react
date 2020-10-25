@@ -1,0 +1,13 @@
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.table table{
+  border: #000 solid 2px;
+}
+
+.table table th {
+  color: #fff;
+  background-color: #000;
+}
