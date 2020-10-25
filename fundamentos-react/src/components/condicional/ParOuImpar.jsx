@@ -8,8 +8,8 @@ export default props => {
     <div>
       {/*<}span>O número {props.numero} é <strong>{parOuImpar}</strong></span>*/}
       { isPar ?
-          <span>Par</span> :
-          <span>Ímpar</span>
+          <span style={{color: 'green', fontWeight: 'bold'}}>Par</span> :
+          <span style={{color: 'red', fontWeight: 'bold'}}>Ímpar</span>
       }
     </div>
   )
