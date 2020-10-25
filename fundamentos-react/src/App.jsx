@@ -10,6 +10,7 @@ import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 
 import './App.css'
+import TabelaProdutos from './components/repeticao/TabelaProdutos'
 
 const App = () => {
   return (
@@ -17,6 +18,10 @@ const App = () => {
       <h1>Fundamentos React</h1>
       
       <div className="Cards">
+        <Card titulo="#07 - Desafio de Repetição" color="#000">
+          <TabelaProdutos />
+        </Card>
+
         <Card titulo="#06 - Repetição" color="#FF4C65">
           <ListaAlunos />
         </Card>
