@@ -2,6 +2,8 @@ import React from 'react'
 
 import produtos from '../../data/produtos'
 
+import './TabelaProdutos.css'
+
 export default props => {
 
   const produtoList = produtos.map((produto) => {
@@ -15,12 +17,18 @@ export default props => {
   })
 
   return(
-    <div>
+    <div className='table'>
       <table>
-        <th>id</th>
-        <th>nome</th>
-        <th>preço</th>
-        {produtoList}
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>nome</th>
+            <th>preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          {produtoList}
+        </tbody>
       </table>
     </div>
   )
