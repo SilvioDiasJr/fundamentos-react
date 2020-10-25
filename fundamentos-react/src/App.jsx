@@ -14,6 +14,7 @@ import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/contador'
 
 import './App.css'
 
@@ -23,6 +24,10 @@ const App = () => {
       <h1>Fundamentos React</h1>
       
       <div className="Cards">
+        <Card titulo="#12 - Contador" color="#424242">
+          <Contador numeroInicial = {10}/>
+        </Card>
+
         <Card titulo="#11 - Componente Controlado" color="#E45F56">
           <Input />
         </Card>
