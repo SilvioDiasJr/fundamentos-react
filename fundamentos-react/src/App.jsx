@@ -23,7 +23,7 @@ const App = () => {
         <Card titulo="#08 - Renderização Condicional" color="#982395">
           <ParOuImpar numero={21}/>
           <UsuarioInfo usuario={{nome: 'Fernando'}}/>
-          <UsuarioInfo usuario={{}}/>
+          {/*<UsuarioInfo usuario={{}}/> */}
         </Card>
 
         <Card titulo="#07 - Desafio de Repetição" color="#000">
